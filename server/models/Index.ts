@@ -20,9 +20,7 @@ let sequelize = new Sequelize(DB_PARAMS.NAME, DB_PARAMS.USER, DB_PARAMS.PASSWORD
     host: DB_PARAMS.HOST,
     dialect: 'postgres',
     logging: false,
-    operatorsAliases: false,
     define: {
-        underscored: true,
         timestamps: true,
     },
     pool: {
