@@ -1,11 +1,13 @@
 /server/node_modules
-server/logfile.txt
+/server/logfile.txt
 .idea
 express-seed.iml
+
+# Build directory
+server/build
 
 server/.env
 server/.elasticbeanstalk/config.yml
 obj/Debug/express-seed.njsproj.FileListAbsolute.txt
 express-seed.njsproj
-logfile.txt
 *.sln
